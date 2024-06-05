@@ -26,6 +26,13 @@ public class ProductService {
 
     }
 
+    public  void addProduct(Product product) {
+        // Logic to add the product
+        // Replace this with your actual implementation
+        List<Product> products = getProducts();
+        products.add(product);
+    }
+
     public Product getProductById(int id) {
         // Logic to fetch the product by id
         // Replace this with your actual implementation
