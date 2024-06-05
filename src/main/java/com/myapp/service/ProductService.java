@@ -25,4 +25,12 @@ public class ProductService {
         return products;
 
     }
+
+    public Product getProductById(int id) {
+        // Logic to fetch the product by id
+        // Replace this with your actual implementation
+
+        List<Product> products = getProducts();
+        return products.get(id);
+    }
 }
